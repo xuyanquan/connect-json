@@ -1,6 +1,6 @@
 {
   "name": "connect-json-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "add extra function res.json to return data",
   "main": "index.js",
   "scripts": {
