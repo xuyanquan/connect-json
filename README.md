@@ -18,6 +18,14 @@ var connect = require('connect')
 
 var connectJson = require('connect-json-middleware')
 
-app.use(connectJson)
-connect.use(connectJson)
+var server = app || connect
+var port = 9999
+
+server
+	.use(connectJson)
+	.use('/getjson', function (req, res) {
+		res.json({status: 200})
+	}).listen(port)
 ```
+
+> view broswer: localhost:9999/getjson
