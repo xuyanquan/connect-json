@@ -1,0 +1,21 @@
+{
+  "name": "connect-json-middleware",
+  "version": "1.0.0",
+  "description": "add extra function res.json to return data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuyanquan/connect-json.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuyanquan/connect-json/issues"
+  },
+  "homepage": "https://github.com/xuyanquan/connect-json#readme",
+  "dependencies": {
+  }
+}
