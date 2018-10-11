@@ -1,4 +1,4 @@
-# connect-json
+# connect-json-middleware
 add extra function res.json to return data
 
 ### Code
